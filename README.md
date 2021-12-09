@@ -1,5 +1,5 @@
 # CIT-114-Final-Reading-Notes
-## Cloud Concepts and Overview
+# Cloud Concepts and Overview
 * A cloud refers to a distinct IT environment that is designed for the purpose of remotely provisioning scalable and measured IT resources.
 * The term originated as a metaphor for the Internet which is, in essence, a network of networks providing remote access to a set of decentralized IT resources.
 * A cloud was commonly used to represent the Internet in a variety of specifications and mainstream documentation of Web-based architectures. 
@@ -68,3 +68,77 @@
 * Cloud consumers will often not be aware of the physical location of their IT resources and data when hosted by public clouds.
 * For some organizations, this can pose serious legal concerns pertaining to industry or government regulations that specify data privacy and storage policies. For example, some UK laws require personal data belonging to UK citizens to be kept within the United Kingdom.
 * Another potential legal issue pertains to the accessibility and disclosure of data.
+# Cloud Economics, Billing, and Support
+# 2.2 Business Drivers
+* The origins and inspirations of many of the characteristics, models, and mechanisms covered throughout subsequent chapters can be traced back to the upcoming business drivers.
+## Capacity Planning
+* Capacity planning is the process of determining and fulfilling future demands of an organization's IT resources, products, and services.
+* Within this context, capacity represents the maximum amount of work that an IT resource is capable of delivering in a given period of time.
+* A discrepancy between the capacity of an IT resource and its demand can result in a system becoming either inefficient (over-provisioning) or unable to fulfill user needs (under-provisioning).
+* Seeks to minimize this discrepancy
+* Different capacity planning strategies exist:
+  * Lead Strategy - adding capacity to an IT resource in anticipation of demand
+  * Lag Strategy - adding capacity when the IT resource reaches its full capacity
+  * Match Strategy - adding IT resource capacity in small increments, as demand increases
+* Planning for capacity can be challenging because it requires estimating usage load fluctuations.
+* There is a constant need to balance peak usage requirements without unnecessary over-expenditure on infrastructure.
+## Cost Reduction
+* A direct alignment between IT costs and business performance can be difficult to maintain.
+* This can make the support of new and expanded business automations an ever-increasing investment. 
+* Much of this required investment is funneled into infrastructure expansion because the usage potential of a given automation solution will always be limited by the processing power of its underlying infrastructure.
+* Two costs need to be accounted for:
+  * The cost of acquiring new infrastructure
+  * The cost of its ongoing ownership.
+* Operational overhead represents a considerable share of IT budgets, often exceeding up-front investment costs.
+* Common forms of infrastructure-related operating overhead include the following:
+  * Technical personnel required to keep the environment operational
+  * Upgrades and patches that introduce additional testing and deployment cycles
+  * Utility bills and capital expense investments for power and cooling
+  * Security and access control measures that need to be maintained and enforced to protect infrastructure resources
+  * Administrative and accounts staff that may be required to keep track of licenses and support arrangements
+ ## Organizational Agility
+* Organizational agility is the measure of an organization's responsiveness to change.
+* An IT enterprise often needs to respond to business change by scaling its IT resources beyond the scope of what was previously predicted or planned for.
+# Cloud Global Infrastructure
+# Chapter 1 The Big Picture
+* Devops is a way of thinking and a way of working
+* It is part of the cultural weave that shapes how we work and why
+* An equally important part of our culture is our values, norms, and knowledge
+* What makes tools “devops” is the manner of their use, not fundamental characteristics of the tools themselves.
+* Devops is not just another software development methodology. Although it is related to and even influenced by software development methodologies like Agile or XP, and its practices can include software development methods, or features like infrastructure automation and continuous delivery, it is much more than just the sum of these parts. While these concepts are related and may be frequently seen in devops environments, focusing solely on them misses the bigger picture—the cultural and interpersonal aspects that give devops its power.
+
+## A Snapshot of Devops Culture
+* A new engineer at Etsy starts her first day with a laptop and a development virtual machine (VM) already set up with the appropriate accounts for access and authorization, the most common GitHub repositories cloned, aliases and shortcuts to relevant tools precreated, and a guide with new hire information and links to other company resources on her desktop.
+* A current employee will pair with the new employee to walk through what testing and development processes she will use in her day-to-day work. She starts by writing code on her local development VM, which is set up with configuration management to be nearly identical to the live production environment.
+* In Etsy’s high-trust, blameless environment, people are given the trust and authority to decide whether a code review is necessary.
+
+## The Evolution of Culture
+* This story of Etsy today is in stark contrast to how things were several years ago with a less transparent and more error-prone deployment process that took close to four hours.
+* Developers had their own blade servers to work on, rather than virtual machines, but the blade servers weren’t powerful enough to run the automated test suites to completion.
+* Tests that were run in the staging environment took a couple of hours to complete, and even then they were flaky enough to make their results less than useful.
+* Developers had their own blade servers to work on, rather than virtual machines, but the blade servers weren’t powerful enough to run the automated test suites to completion.
+
+## The Value of The Story
+* Effective DevOps contains case studies and stories from both teams and individuals.
+
+# Chapter 2. What Is Devops?
+* Devops is a cultural movement that changes how individuals think about their work, values the diversity of work done, supports intentional processes that accelerate the rate by which businesses realize value, and measures the effect of social and technical change.
+* It is a way of thinking and a way of working that enables individuals and organizations to develop and maintain sustainable work practices.
+
+## A Prescription for Culture
+* Devops is about finding ways to adapt and innovate social structure, culture, and technology together in order to work more effectively.
+
+## The DevOps Equation
+* While the term devops itself is a portmanteau of “development” and “operations,” the core concepts of devops can and should be applied throughout the entire organization.
+* A sustainable, successful business is more than the development and operations teams.
+
+## DevOps as Folk Model
+* In many ways, devops has become a folk model, a term used with different intent that leads to miscommunication and misunderstanding.
+* Folk models are not necessarily bad and become problematic when different groups use the same term with different intent.
+* Situational awareness
+
+## The Old View and the New View
+* Old: In an environment where humans are blamed and punished for errors, a culture of fear can build up walls that prevent clear communication and transparency.
+* “human error as the cause of trouble.”
+* New: Contrast this with a blameless environment, where issues are addressed cooperatively and viewed as learning opportunities for individuals and the organization.
+* “human error as a symptom of trouble deeper in the system.”
